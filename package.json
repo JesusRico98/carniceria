@@ -1,0 +1,11 @@
+{
+  "name": "carniceria",
+  "version": "1.0.0",
+  "description": "servidor de carniceria",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -22,29 +22,31 @@
           </div>
         </div>
         <div class="contenedor_formulario_login-register">
-          <form action="" class="formulario_login">
+          <form action="" class="formulario_login" id="formulario" >
             <h2>Iniciar Sesion</h2>
             <h3>Ingresa Tu Email</h3>
-            <input type="email" placeholder="ejemplo@gmail.com" />
+            <input type="email" placeholder="ejemplo@gmail.com"   id="emaillogin" required=""/>
             <h3>Ingresa Tu Contraseña</h3>
-            <input type="password" placeholder="Contraseña" />
-            <button>Iniciar Sesion</button>
+            <input type="password" placeholder="Contraseña" id="Contraseñalogin" required=""/>
+            <button type="submit" id="btn_iniciar">Iniciar Sesion</button>
           </form>
-          <form action="" class="formulario_register">
+        <!-- Este es el formulario del registro-->
+          <form action="" class="formulario_register" id="formulario_registro">
             <h2>Registrate</h2>
             <h3>Nombre Completo</h3>
-            <input type="text" placeholder="Nombre Completo" />
+            <input type="input" placeholder="Nombre Completo" id="nombre" name="nombre"/>
             <h3>Ingresa tu Email</h3>
-            <input type="email" placeholder="ejemplo@gmail.com" />
+            <input type="email" placeholder="ejemplo@gmail.com" id="email" name="email"/>
             <h3>Usuario</h3>
-            <input type="text" placeholder="MiUsuario" />
+            <input type="input" placeholder="MiUsuario" id="usuario" name="usuario"/>
             <h3>Contraseña</h3>
-            <input type="password" placeholder="Contraseña" />
-            <button>Registrarme</button>
+            <input type="password" placeholder="Contraseña" id="Contraseña" name="contrasena"/>
+            <button type="submit"  id="registrarme">Registrarme</button>
           </form>
         </div>
       </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
